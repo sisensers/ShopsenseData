@@ -1,0 +1,59 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "Category_Id",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Category_Id",
+            "oid": "293e5573-319a-4a9b-b124-a97649f9981a",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Category_Name",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Category_Name",
+            "oid": "db8376ed-be9d-41d5-ac3a-042c543ab78d",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "columnsDateTimePatterns": "{}",
+        "culture": "en-US",
+        "delimiter": ",",
+        "excludeIfBegins": "",
+        "excludeIfContains": "",
+        "hasHeader": true,
+        "ignoreFirstRows": "",
+        "ignoreMissingColumns": false,
+        "stringQuote": "\""
+    },
+    "dataset": "b6ff3715-f82a-4a2a-83c6-cf8167d33228",
+    "hidden": false,
+    "id": "00a4bc00-4a6f-41f2-a999-7875ed291831.csv",
+    "isMaterialized": false,
+    "name": "Category",
+    "oid": "05efd76d-6753-4bc6-ae40-afb3ed8117b9",
+    "schemaName": "/opt/sisense/storage/datasets/storage/00/00a4bc00-4a6f-41f2-a999-7875ed291831.csv",
+    "tupleTransformations": [
+        {
+            "arguments": {
+                "column": "db8376ed-be9d-41d5-ac3a-042c543ab78d",
+                "name": "Category Name"
+            },
+            "type": "rename-column"
+        }
+    ],
+    "type": "base"
+}

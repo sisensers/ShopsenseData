@@ -1,0 +1,39 @@
+{
+    "buildDestination": {
+        "database": null,
+        "destination": "elasticube"
+    },
+    "datasets": [
+        "./10ad8519-cebb-49fc-99e3-33f6bdb4c678/dataset.json",
+        "./79bb4647-a11b-4da4-9ce8-2833c4dac3b4/dataset.json",
+        "./b6ff3715-f82a-4a2a-83c6-cf8167d33228/dataset.json",
+        "./d1994e0f-400a-4872-a380-cdbf3cfb85a0/dataset.json",
+        "./e57c72dd-f5cc-4972-82df-107d1c31ba00/dataset.json",
+        "./ead07850-cfe8-445c-8d39-7dcc7a60d415/dataset.json"
+    ],
+    "dependencies": {
+        "perspectives": [
+            "./5613c18b-d7cc-4f0a-bdae-d037b2a49a41/perspective.json"
+        ]
+    },
+    "experiments": {
+    },
+    "fiscal": "system",
+    "hierarchies": [
+    ],
+    "modelStatistics": {
+        "allTablesPerCollection": true,
+        "enableModelStatistics": true,
+        "maxTablesPerCollection": 1,
+        "recollectStatsInterval": 12
+    },
+    "oid": "5613c18b-d7cc-4f0a-bdae-d037b2a49a41",
+    "relationType": "direct",
+    "relations": "./relations.json",
+    "relationsTables": [
+    ],
+    "schemaId": null,
+    "shouldUpdateScheduleOnManualBuild": null,
+    "title": "Ecommerce",
+    "type": "extract"
+}

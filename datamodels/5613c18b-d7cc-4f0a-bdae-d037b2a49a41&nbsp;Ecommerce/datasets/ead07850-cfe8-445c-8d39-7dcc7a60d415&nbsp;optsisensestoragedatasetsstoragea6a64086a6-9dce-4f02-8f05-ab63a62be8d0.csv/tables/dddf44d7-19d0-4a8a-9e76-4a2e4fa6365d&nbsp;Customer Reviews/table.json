@@ -1,0 +1,76 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "Customer_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Customer_ID",
+            "oid": "f70230f1-7ac5-4d0f-9840-c142e239f4d5",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Sentiment",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Sentiment",
+            "oid": "2d8926a0-1949-49a0-ae46-ca8bf69f5a13",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "Review",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Review",
+            "oid": "068291fe-a0d3-4091-97f3-c65f915b3484",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "Rating",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Rating",
+            "oid": "ef43b099-60f2-4fc8-af20-3cabc8e26b2a",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        }
+    ],
+    "configOptions": {
+        "columnsDateTimePatterns": "{}",
+        "culture": "en-US",
+        "delimiter": ",",
+        "excludeIfBegins": "",
+        "excludeIfContains": "",
+        "hasHeader": true,
+        "ignoreFirstRows": "",
+        "ignoreMissingColumns": false,
+        "stringQuote": "\""
+    },
+    "dataset": "ead07850-cfe8-445c-8d39-7dcc7a60d415",
+    "hidden": false,
+    "id": "a64086a6-9dce-4f02-8f05-ab63a62be8d0.csv",
+    "isMaterialized": false,
+    "name": "Customer Reviews",
+    "oid": "dddf44d7-19d0-4a8a-9e76-4a2e4fa6365d",
+    "schemaName": "/opt/sisense/storage/datasets/storage/a6/a64086a6-9dce-4f02-8f05-ab63a62be8d0.csv",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

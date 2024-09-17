@@ -1,0 +1,83 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "Brand_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Brand_ID",
+            "oid": "884db0d6-2e40-4bc8-b320-2d64ab070990",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Product_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Product_ID",
+            "oid": "a6963dfa-33f1-4637-aefc-4d7e05b7498e",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Product_Name",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Product_Name",
+            "oid": "48fd00c6-65a5-4218-aa82-8ba1769f5284",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "Product_Image",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Product_Image",
+            "oid": "474fbae7-a6a9-482c-9520-dd906923f3ae",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "columnsDateTimePatterns": "{}",
+        "culture": "en-US",
+        "delimiter": ",",
+        "excludeIfBegins": "",
+        "excludeIfContains": "",
+        "hasHeader": true,
+        "ignoreFirstRows": "",
+        "ignoreMissingColumns": false,
+        "stringQuote": "\""
+    },
+    "dataset": "d1994e0f-400a-4872-a380-cdbf3cfb85a0",
+    "hidden": false,
+    "id": "751314c4-f6ef-4966-b266-a2f6e6d1c333.csv",
+    "isMaterialized": false,
+    "name": "Product",
+    "oid": "7fe84474-32fb-4278-8b9c-aa3b37eceed8",
+    "schemaName": "/opt/sisense/storage/datasets/storage/75/751314c4-f6ef-4966-b266-a2f6e6d1c333.csv",
+    "tupleTransformations": [
+        {
+            "arguments": {
+                "column": "48fd00c6-65a5-4218-aa82-8ba1769f5284",
+                "name": "Product Name"
+            },
+            "type": "rename-column"
+        }
+    ],
+    "type": "base"
+}

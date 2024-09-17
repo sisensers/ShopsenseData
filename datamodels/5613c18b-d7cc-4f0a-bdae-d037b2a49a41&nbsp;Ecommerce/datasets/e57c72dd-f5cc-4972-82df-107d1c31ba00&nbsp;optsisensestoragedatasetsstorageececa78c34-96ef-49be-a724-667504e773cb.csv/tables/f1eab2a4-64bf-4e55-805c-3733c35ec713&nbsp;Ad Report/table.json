@@ -1,0 +1,331 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "Ad_set_name",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Ad_set_name",
+            "oid": "d111f7d6-c576-4f9c-9034-7b0b8c288757",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "Ad_name",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Ad_name",
+            "oid": "ffac76bf-e1e2-41e1-8172-4c906f202650",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "Age",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Age",
+            "oid": "4088b70d-5b6d-448f-af97-dd550bd8613a",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "Gender",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Gender",
+            "oid": "a2e3a7bc-dc9b-4ca5-a3d7-1febad6a2759",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "Objective",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Objective",
+            "oid": "cd299540-d6a3-49a1-9274-913d8327799f",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "Day",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Day",
+            "oid": "487751d4-f4e0-4e63-9270-f9f4cf2dcc11",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Ad_Set_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Ad_Set_ID",
+            "oid": "7af0dff7-99bd-4454-b820-b27eb0eaaa9c",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Ad_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Ad_ID",
+            "oid": "3042256a-9ae1-42dd-abf6-1176efb2d7d0",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Reach",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Reach",
+            "oid": "eb33a27b-f497-44a8-bbf9-ba83df211b1b",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Impressions",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Impressions",
+            "oid": "f963b2b7-115b-4a2d-8cde-22273d34d225",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Frequency",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Frequency",
+            "oid": "28f91af7-ccf7-452d-80be-7ed9ae8e3f24",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "Results",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Results",
+            "oid": "bf4e85b3-c164-4e59-b0e9-bf46e30d27b4",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Amountspent(USD)",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Amountspent(USD)",
+            "oid": "09d530e2-ce04-4711-bea4-79dd75148b6d",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Costperresult",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Costperresult",
+            "oid": "5e3a8786-ae0a-4166-a9a7-ab6fb1930506",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "Starts",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Starts",
+            "oid": "02cd6183-6e0c-4378-ad2b-8aab2486b9cf",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "Ends",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Ends",
+            "oid": "6f958e5c-8bd1-4aac-93df-86ceb33d8795",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "Purchases",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Purchases",
+            "oid": "f8ac8564-344a-49f4-9e39-1106a3431992",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Costperpurchase",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Costperpurchase",
+            "oid": "d0e02093-f97c-463f-8551-38a28501bcc9",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "Uniquepurchases",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Uniquepurchases",
+            "oid": "65304a22-7526-41a8-8b4b-6d0aa4678a5c",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Network",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Network",
+            "oid": "ab76fb15-c426-4951-a968-83e8f2186e82",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "columnsDateTimePatterns": "{}",
+        "culture": "en-US",
+        "delimiter": ",",
+        "excludeIfBegins": "",
+        "excludeIfContains": "",
+        "hasHeader": true,
+        "ignoreFirstRows": "",
+        "ignoreMissingColumns": false,
+        "stringQuote": "\""
+    },
+    "dataset": "e57c72dd-f5cc-4972-82df-107d1c31ba00",
+    "hidden": false,
+    "id": "eca78c34-96ef-49be-a724-667504e773cb.csv",
+    "isMaterialized": false,
+    "name": "Ad Report",
+    "oid": "f1eab2a4-64bf-4e55-805c-3733c35ec713",
+    "schemaName": "/opt/sisense/storage/datasets/storage/ec/eca78c34-96ef-49be-a724-667504e773cb.csv",
+    "tupleTransformations": [
+        {
+            "arguments": {
+                "column": "09d530e2-ce04-4711-bea4-79dd75148b6d",
+                "name": "Amount Spent"
+            },
+            "type": "rename-column"
+        },
+        {
+            "arguments": {
+                "column": "d0e02093-f97c-463f-8551-38a28501bcc9",
+                "name": "Cost Per Purchase"
+            },
+            "type": "rename-column"
+        },
+        {
+            "arguments": {
+                "column": "65304a22-7526-41a8-8b4b-6d0aa4678a5c",
+                "name": "Unique Purchases"
+            },
+            "type": "rename-column"
+        },
+        {
+            "arguments": {
+                "column": "5e3a8786-ae0a-4166-a9a7-ab6fb1930506",
+                "name": "Cost Per Result"
+            },
+            "type": "rename-column"
+        },
+        {
+            "arguments": {
+                "column": "ffac76bf-e1e2-41e1-8172-4c906f202650",
+                "name": "Ad Name"
+            },
+            "type": "rename-column"
+        },
+        {
+            "arguments": {
+                "column": "d111f7d6-c576-4f9c-9034-7b0b8c288757",
+                "name": "Ad Set Name"
+            },
+            "type": "rename-column"
+        },
+        {
+            "arguments": {
+                "expression": {
+                    "expression": "DayDiff([Ends],[Starts])",
+                    "isDatabaseDialect": false,
+                    "oid": "64028369-c8bf-48da-8847-778bb6923ad5"
+                },
+                "hidden": false,
+                "id": "Campaign Duration",
+                "indexed": true,
+                "isUpsertBy": false,
+                "lastUpdated": "2024-02-26T18:51:58.203Z",
+                "name": "Campaign Duration",
+                "oid": "d6254ce5-fac1-4ef3-9848-0e968aa5e390",
+                "precision": 0,
+                "scale": 0,
+                "size": 0,
+                "type": 6
+            },
+            "type": "add-column"
+        }
+    ],
+    "type": "base"
+}

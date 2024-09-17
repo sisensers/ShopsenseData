@@ -1,0 +1,59 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "Brand_Id",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Brand_Id",
+            "oid": "105fc143-a3e9-421e-9dab-e9b5efcb390f",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Brand_Name",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Brand_Name",
+            "oid": "178d3024-eb8f-4cc6-bcce-265fd8cab820",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "columnsDateTimePatterns": "{}",
+        "culture": "en-US",
+        "delimiter": ",",
+        "excludeIfBegins": "",
+        "excludeIfContains": "",
+        "hasHeader": true,
+        "ignoreFirstRows": "",
+        "ignoreMissingColumns": false,
+        "stringQuote": "\""
+    },
+    "dataset": "79bb4647-a11b-4da4-9ce8-2833c4dac3b4",
+    "hidden": false,
+    "id": "78d4ea26-a881-471c-b976-0b5110f7f66b.csv",
+    "isMaterialized": false,
+    "name": "Brand",
+    "oid": "dd0b99bf-2691-491e-99a6-48a03a99a270",
+    "schemaName": "/opt/sisense/storage/datasets/storage/78/78d4ea26-a881-471c-b976-0b5110f7f66b.csv",
+    "tupleTransformations": [
+        {
+            "arguments": {
+                "column": "178d3024-eb8f-4cc6-bcce-265fd8cab820",
+                "name": "Brand Name"
+            },
+            "type": "rename-column"
+        }
+    ],
+    "type": "base"
+}
